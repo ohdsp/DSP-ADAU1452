@@ -10,7 +10,8 @@ This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLU
 
 This is part of my Open Hardware DSP Platform.
 
-
+### Known issues ###
+R308 is shown as 0R - this should be not fitted (otherwise you will sort the supply rail!). This resistor was provided incase the adjustable version of U302 was used (TPS7A4501). 
 
 
 ### What is this repository for? ###
