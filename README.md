@@ -1,43 +1,50 @@
-# README - OHDSP DSP-ADAU1452-StandAlone Release 1.0 #
-
-## Disclaimer ##
-
+# [Open Hardware DSP Platform](www.ohdsp.org)
+## ADAU145x DSP supporting ADAU1452, ADAU1451, and ADAU1450 devices
+### Revision 2.0
+###### DSP-ADAU1452 (KiCad 4.0.2-stable)
+---
+# README
+### Disclaimer
 Copyright Paul Janicki 2015
 
 Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)
 
 This documentation is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.
 
-This is part of my Open Hardware DSP Platform.
-
-### Known issues ###
-R308 is shown as 0R - this should be not fitted (otherwise you will sort the supply rail!). This resistor was provided incase the adjustable version of U302 was used (TPS7A4501). 
-
-
-### What is this repository for? ###
+### What is this repository for?
 
 **Quick summary**
 
-This is a simple self-bootable ADAU1450, ADAU1451, or ADAU1452 based DSP board with 4 I2S (TDM/left and right justified and more) input and 4 output connectors. When used with the ADAU1451 and ADAU1452 parts there are also optical and coaxial SPDIF input and output connectors. There is an I2C connector for connection to a host microcontoller or the Analog Devices SigmaStudio USBi to EZ-Board Adapter (ADZS-USBI2EZB) or anything that will do the same job (eg freeUSBi). The board has space for a self-boot EEPROM and so with the ADZS-USBI2EZB or compatible device the board can be programmed as you wish and will selfboot the last program written when enabled. 
+This is a simple self-bootable ADAU1450, ADAU1451, or ADAU1452 based DSP board with 4 I2S (TDM/left and right justified and more) input and 4 output connectors. When used with the ADAU1451 and ADAU1452 parts there are also optical and coaxial SPDIF input and output connectors. 
+
+There is an I2C/SPI connector for connection to the Analog Devices SigmaStudio USBi to EZ-Board Adapter (ADZS-USBI2EZB) or anything that will do the same job (eg freeUSBi). The board also features master and slave SPI connectors for use with other OHDSP boards. The board has space for a self-boot EEPROM and so with the ADZS-USBI2EZB or compatible device the board can be programmed as you wish and will selfboot the last program written when enabled. 
 
 This board forms the core of the open hardware DSP platform which is designed to be a highly customisable and flexible DSP platform. 
 
-This repository contains the KiCad design files (KiCad 4.0.1-stable), manufacturing Gerber/drill files and PDF outputs for this board.
+This repository contains the KiCad design files, manufacturing Gerber/drill files, and PDF/drawing files for this board.
 
+### What is the project folder structure?
+Most folder names are self explanatory. Starting from the top level: \
+*DSP-ADAU1452*
++ *Bill of Materials*  - This contains the bill of materials in CVS, LibreOffice Calc and XML formats
++ *Drawings*
+    + *PCB* - This contains SVG and PDF outputs of PCB copper layers and assembly drawings
+    + *Schematics* - This contains the PDF schematic drawing
++ *Gerbers* - This contains the PCB Gerbers and drill drawings for manufacture, there is also a zip file ready to send to most manufacturers
++ *KiCad* - This contains the original KiCad schematic and PCB design files
 
-### How do I get set up? ###
-(Note this is for KiCad releases up to and including 4.0.1-stable)
+### How do I get set up?
 
 **Summary of set up**
 
 1. Set your self up a directory on a local disk, something simple will make life easier (eg C:\Electronics on Windows as used here), but anywhere will do just fine.
 2. Download the Kicad-Libs from [https://github.com/ohdsp/KiCad-Libs](https://github.com/ohdsp/KiCad-Libs) and place in C:\Electronics\Kicad-Libs (or your chosen folder) 
 3. Create a OHDSP subdirectory in C:\Electronics (so C:\Electronics\OHDSP)
-3. Download this project to C:\Electronics\OHDSP\DSP-ADAU1452-StandAlone
+3. Download this project to C:\Electronics\OHDSP\DSP-ADAU1452
 4. Fire up Kicad
-5. Open the main project file C:\Electronics\OHDSP\DSP-ADAU1452-StandAlone\Schematics\DSP-ADAU1452-StandAlone.pro
+5. Open the main project file C:\Electronics\OHDSP\DSP-ADAU1452\Schematics\DSP-ADAU1452.pro
 6. (Optional) Setup Pcbnew component library as below.
-7. Do as you wish with the project, just keep it under TAPR Open Hardware License
+7. Do as you wish with the project, just keep it under the TAPR Open Hardware License.
 
 Make sure your git setup doesn't exclude files used in the project (like .LIB files) or things may go wrong down the line.
 
