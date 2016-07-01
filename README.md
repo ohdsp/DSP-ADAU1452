@@ -1,4 +1,4 @@
-# [Open Hardware DSP Platform](www.ohdsp.org)
+# [Open Hardware DSP Platform](http://www.ohdsp.org)
 ## ADAU145x DSP supporting ADAU1452, ADAU1451, and ADAU1450 devices
 ### Revision 2.0
 ###### DSP-ADAU1452 (KiCad 4.0.2-stable)
