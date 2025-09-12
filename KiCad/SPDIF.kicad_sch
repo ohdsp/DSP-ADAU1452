@@ -1,0 +1,8854 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "e74d2152-103b-4028-8ba3-7bf8c41244b4")
+	(paper "A4")
+	(title_block
+		(title "ADAU145x DSP - ADAU1452, ADAU1451, ADAU1450 supported")
+		(date "2025-09-12")
+		(rev "2.1")
+		(company "Open Hardware DSP Platform - www.ohdsp.org")
+		(comment 1 "MERCHANTABILITY, SATISFACTORY QUALITY AND FITNESS FOR A PARTICULAR PURPOSE.")
+		(comment 2 "is distributed WITHOUT ANY EXPRESS OR IMPLIED WARRANTY, INCLUDING OF")
+		(comment 3 "Licensed under the TAPR Open Hardware License (www.tapr.org/OHL). This documentation")
+		(comment 4 "Copyright Paul Janicki 2025")
+	)
+	(lib_symbols
+		(symbol "MyKiCadLibs-Lib:C"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.508 2.54 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C"
+				(at 0.762 -2.286 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "Text description"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "V"
+				(at 0.762 -3.81 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Type" "X7R"
+				(at 0.762 -5.334 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+				)
+			)
+			(property "Tolerance" "10%"
+				(at 2.286 -8.382 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "Size" "Size"
+				(at 0.762 -6.858 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SM* C? C1-1"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_0_1"
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 4.318)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MyKiCadLibs-Lib:COAX"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "CN"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "COAX"
+				(at 1.27 2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "Text description"
+				(at 3.81 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "COAX_0_1"
+				(circle
+					(center 3.81 0)
+					(radius 0.254)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 3.81 0)
+					(radius 1.27)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "COAX_1_1"
+				(pin passive line
+					(at 0 0 0)
+					(length 3.7084)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 -3.81 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MyKiCadLibs-Lib:CONN_3x1"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "P"
+				(at 12.319 -5.207 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "CONN_3x1"
+				(at 10.922 -2.286 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 8.636 -2.794 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 8.636 -2.794 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "Text description"
+				(at 6.35 -7.62 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CONN_3x1_0_1"
+				(rectangle
+					(start 6.477 1.016)
+					(end 10.16 -6.096)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CONN_3x1_1_1"
+				(pin passive inverted
+					(at 0 0 0)
+					(length 6.35)
+					(name "P1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 0 -2.54 0)
+					(length 6.35)
+					(name "P2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive inverted
+					(at 0 -5.08 0)
+					(length 6.35)
+					(name "P3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MyKiCadLibs-Lib:CP1"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.254)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 2.54 2.54 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "CP1"
+				(at 3.81 -2.794 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.27 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "Text description"
+				(at 0 10.16 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "Voltage" "V"
+				(at 1.778 -4.318 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify right)
+				)
+			)
+			(property "Size" "Pitch, Diameter"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(justify left)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CP* SM*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "CP1_0_0"
+				(text "+"
+					(at -1.27 2.54 0)
+					(effects
+						(font
+							(size 2.032 2.032)
+						)
+					)
+				)
+			)
+			(symbol "CP1_0_1"
+				(polyline
+					(pts
+						(xy -2.54 1.27) (xy 2.54 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start -2.54 -1.27)
+					(mid 0 -0.5009)
+					(end 2.54 -1.27)
+					(stroke
+						(width 0.381)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "CP1_1_1"
+				(pin passive line
+					(at 0 5.08 270)
+					(length 3.81)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 4.572)
+					(name "~"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.016 1.016)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MyKiCadLibs-Lib:IC-LOGIC-74HC04"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 2.54 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "IC-LOGIC-74HC04"
+				(at 7.62 3.81 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IC-LOGIC-74HC04_1_1"
+				(rectangle
+					(start -3.81 -5.08)
+					(end 3.81 -15.24)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 0 270)
+					(length 5.08)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "14"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -20.32 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "IC-LOGIC-74HC04_2_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54) (xy 10.16 0) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 10.414 0)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 0 180)
+					(length 4.5974)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "IC-LOGIC-74HC04_3_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54) (xy 10.16 0) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 10.414 0)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 0 180)
+					(length 4.5974)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "IC-LOGIC-74HC04_4_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54) (xy 10.16 0) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 10.414 0)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 0 180)
+					(length 4.5974)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "IC-LOGIC-74HC04_5_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54) (xy 10.16 0) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 10.414 0)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "9"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 0 180)
+					(length 4.5974)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "IC-LOGIC-74HC04_6_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54) (xy 10.16 0) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 10.414 0)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "11"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 0 180)
+					(length 4.5974)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "10"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "IC-LOGIC-74HC04_7_1"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -2.54) (xy 10.16 0) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 10.414 0)
+					(radius 0.1778)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "13"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 15.24 0 180)
+					(length 4.5974)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "12"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MyKiCadLibs-Lib:IC-LOGIC-BUF-NC7WZ16P6X"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "IC-LOGIC-BUF-NC7WZ16P6X"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 2.54 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "IC-LOGIC-BUF-NC7WZ16P6X_1_1"
+				(rectangle
+					(start -3.81 6.35)
+					(end 3.81 -6.35)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at 0 11.43 270)
+					(length 5.08)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 -11.43 90)
+					(length 5.08)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "IC-LOGIC-BUF-NC7WZ16P6X_2_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy 2.54 0) (xy -1.27 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -2.54) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "IC-LOGIC-BUF-NC7WZ16P6X_3_1"
+				(polyline
+					(pts
+						(xy -1.27 2.54) (xy -1.27 -2.54) (xy 2.54 0) (xy -1.27 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin input line
+					(at -6.35 0 0)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 7.62 0 180)
+					(length 5.08)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MyKiCadLibs-Lib:IC-SPDIF-RX-OPTO"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 -16.51 90)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+				)
+			)
+			(property "Value" "IC-SPDIF-RX-OPTO"
+				(at -1.27 -6.35 90)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -6.35 -19.05 90)
+				(effects
+					(font
+						(size 2.9972 2.9972)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -3.81 -16.51 90)
+				(effects
+					(font
+						(size 2.9972 2.9972)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IC-SPDIF-RX-OPTO_0_1"
+				(rectangle
+					(start 1.27 -2.54)
+					(end 10.16 -13.97)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IC-SPDIF-RX-OPTO_1_1"
+				(pin input line
+					(at 3.81 0 270)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -16.51 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "Vout"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MyKiCadLibs-Lib:IC-SPDIF-TX-OPTO"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -2.54 -16.51 90)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+				)
+			)
+			(property "Value" "IC-SPDIF-TX-OPTO"
+				(at 0 -7.62 90)
+				(effects
+					(font
+						(size 1.4986 1.4986)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -5.08 -19.05 90)
+				(effects
+					(font
+						(size 2.9972 2.9972)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.54 -16.51 90)
+				(effects
+					(font
+						(size 2.9972 2.9972)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "IC-SPDIF-TX-OPTO_0_1"
+				(rectangle
+					(start 1.27 -2.54)
+					(end 10.16 -13.97)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "IC-SPDIF-TX-OPTO_1_1"
+				(pin input line
+					(at 3.81 0 270)
+					(length 2.54)
+					(name "Vcc"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -16.51 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 12.7 -7.62 180)
+					(length 2.54)
+					(name "Vin"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MyKiCadLibs-Lib:INDUCTOR"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at -1.27 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "INDUCTOR"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -3.81 -2.54 90)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Description" "Text description"
+				(at 5.08 1.27 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "Current" "A"
+				(at 3.81 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Size" "Size"
+				(at 6.477 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "INDUCTOR_0_1"
+				(arc
+					(start 0.0254 4.9784)
+					(mid 1.1942 3.7719)
+					(end 0.0254 2.5654)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.0254 2.5908)
+					(mid 1.2704 1.3081)
+					(end 0.0254 0.0254)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.0254 0.0508)
+					(mid 1.2704 -1.2319)
+					(end 0.0254 -2.5146)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 0.0254 -2.54)
+					(mid 1.245 -3.7973)
+					(end 0.0254 -5.0546)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "INDUCTOR_1_1"
+				(pin passive line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.778 1.778)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.778 1.778)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.778 1.778)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.778 1.778)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "MyKiCadLibs-Lib:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0.1778 0.0254 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at -2.032 0 90)
+				(effects
+					(font
+						(size 0.762 0.762)
+					)
+				)
+			)
+			(property "Description" "Text description"
+				(at 6.223 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "Power" "mW"
+				(at 2.54 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "Size" "Size"
+				(at 4.445 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "Tolerance" "1%"
+				(at 8.255 0 90)
+				(effects
+					(font
+						(size 1.016 1.016)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R? SM0603 SM0805 R?-* SM1206"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 3.81)
+					(end 1.016 -3.81)
+					(stroke
+						(width 0.3048)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 6.35 270)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -6.35 90)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.524 1.524)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power1:GNDD"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GNDD"
+				(at 0 -3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "(digital) ground power-flag symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Power Flag Symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GNDD_0_1"
+				(rectangle
+					(start -1.27 -1.524)
+					(end 1.27 -2.032)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GNDD_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(hide yes)
+					(name "GNDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "power1:VPP"
+			(power)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "VPP"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "programming volatge power-flag symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "Power Flag Symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "VPP_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "VPP_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(hide yes)
+					(name "VPP"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(text "Optical Output"
+		(exclude_from_sim no)
+		(at 139.7 137.16 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "1ac48be4-ee30-44cd-bffc-cdc7d07095d0")
+	)
+	(text "Coaxial Input"
+		(exclude_from_sim no)
+		(at 177.8 63.5 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "24924170-9e04-4a54-8df7-72fe3377c06b")
+	)
+	(text "Optical Input"
+		(exclude_from_sim no)
+		(at 124.46 64.77 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "67754fbb-9d5b-4320-b8ca-8f7299894e95")
+	)
+	(text "SPDIF Inputs and Outputs - Optical and Coaxial"
+		(exclude_from_sim no)
+		(at 21.59 24.13 0)
+		(effects
+			(font
+				(size 2.9972 2.9972)
+			)
+			(justify left bottom)
+		)
+		(uuid "8aebf0d9-8ad7-4eb9-8f00-5f935c9ff923")
+	)
+	(text "Coaxial Output"
+		(exclude_from_sim no)
+		(at 228.6 130.175 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "c31442fc-a825-4376-98ec-25baf8991d58")
+	)
+	(text "Only one SPDIF input can be used"
+		(exclude_from_sim no)
+		(at 146.05 76.2 0)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left bottom)
+		)
+		(uuid "c9f506f1-90bf-48ed-9469-2cb91ec4c495")
+	)
+	(junction
+		(at 62.23 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00d427b0-c4a9-46ad-b5f0-a807ec00795b")
+	)
+	(junction
+		(at 189.23 138.43)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "06c55a3f-ca25-4c7e-9e0b-ecd28b980ed6")
+	)
+	(junction
+		(at 77.47 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0bb019c9-4908-4765-9441-fc3c44cdc261")
+	)
+	(junction
+		(at 99.06 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a9c2170-d6a9-457e-801e-776020b0097c")
+	)
+	(junction
+		(at 130.81 115.57)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "31861624-a00f-4a6e-8354-4f42997595d7")
+	)
+	(junction
+		(at 207.01 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "361343df-676a-49ef-b4eb-c86fefb03bf7")
+	)
+	(junction
+		(at 53.34 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3f79d434-f94e-4e7f-ac12-775156562613")
+	)
+	(junction
+		(at 53.34 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "555fed24-4a3e-4d1e-800d-8c0a14b7fdb1")
+	)
+	(junction
+		(at 82.55 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61905828-2ee6-4143-98f1-08f73c401829")
+	)
+	(junction
+		(at 63.5 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "62232bc0-3e47-499b-874e-d622320bfe37")
+	)
+	(junction
+		(at 97.79 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6513971b-407a-4c62-9916-1817c1ae3c3f")
+	)
+	(junction
+		(at 62.23 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "774859b0-5fe9-4992-8c15-27f57d4ef309")
+	)
+	(junction
+		(at 233.045 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7a25ff76-76a7-4305-9d82-2e0167db0b04")
+	)
+	(junction
+		(at 111.76 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "885fc794-7caf-46e8-af75-aa0e9fee2591")
+	)
+	(junction
+		(at 245.11 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "894e8faf-10fb-404f-aa63-ed812dcd6ff1")
+	)
+	(junction
+		(at 91.44 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "90b36186-c20f-4bb3-a19a-b0dba159c1b3")
+	)
+	(junction
+		(at 121.92 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "927a92c0-9fc4-4ac0-804f-c9628fc57aca")
+	)
+	(junction
+		(at 266.7 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "96c7c36a-c559-4b5b-bc58-c688351bf66a")
+	)
+	(junction
+		(at 99.06 83.185)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9852e9ce-b321-45f6-8ec4-794ab79fc1fc")
+	)
+	(junction
+		(at 69.85 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ea2e693-24ef-4490-8fbb-705926a4411a")
+	)
+	(junction
+		(at 69.85 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a44a54ea-e9c1-4135-a0f1-7b7668092e04")
+	)
+	(junction
+		(at 54.61 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ae0095ee-d0bc-4934-89a3-e91f65bc14df")
+	)
+	(junction
+		(at 39.37 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "af809943-beee-494c-91b0-36b8edb22079")
+	)
+	(junction
+		(at 46.99 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b44c2796-e54c-49e9-b71a-79fde123a3bb")
+	)
+	(junction
+		(at 82.55 83.185)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bdd8ca4a-2b21-48ca-a7de-66dd808b4198")
+	)
+	(junction
+		(at 91.44 83.185)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "beeba1f1-ad00-43ab-ad6e-665a393eb0ce")
+	)
+	(junction
+		(at 214.63 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c48bce9b-a0e7-4cec-a6c3-8c4516c35169")
+	)
+	(junction
+		(at 82.55 109.22)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c5cff6d1-cb37-4350-942d-b5c1cb02a6a1")
+	)
+	(junction
+		(at 207.01 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cd105ae0-62e5-44ce-a93d-6d0d931f7f3d")
+	)
+	(junction
+		(at 39.37 39.37)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d2d27751-39b1-4e21-a2e2-7faf0ccd9891")
+	)
+	(junction
+		(at 46.99 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dbc39ed1-8b4f-4cae-9de3-0a881b349619")
+	)
+	(junction
+		(at 189.23 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc0f855a-d785-48e3-87e3-3bff120109fd")
+	)
+	(junction
+		(at 63.5 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e02b3d71-0dfb-4c6d-a653-52141fe12543")
+	)
+	(junction
+		(at 54.61 67.31)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e12697a3-d89f-4859-be66-cbfebbdcf29f")
+	)
+	(junction
+		(at 214.63 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f056ad88-88f9-40ee-9d08-1bd9433040a3")
+	)
+	(wire
+		(pts
+			(xy 189.23 133.35) (xy 189.23 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01e9371d-9f53-45cb-90a9-2ab15977cafa")
+	)
+	(wire
+		(pts
+			(xy 207.01 144.78) (xy 214.63 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "01ea8c1b-cd91-4324-97ef-8894b3bd8f51")
+	)
+	(wire
+		(pts
+			(xy 138.43 58.42) (xy 142.24 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "024f3e05-3a57-4294-ae36-dd6ffc30595b")
+	)
+	(wire
+		(pts
+			(xy 39.37 67.31) (xy 46.99 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05242ad7-d24d-4c57-b6d1-6a3d39a0b686")
+	)
+	(wire
+		(pts
+			(xy 266.7 72.39) (xy 266.7 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07c6cb6e-4b7d-489a-8e16-f883109b1948")
+	)
+	(wire
+		(pts
+			(xy 214.63 144.78) (xy 214.63 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "082bca9d-6908-46c1-8d5c-6ad78b031ba5")
+	)
+	(wire
+		(pts
+			(xy 63.5 135.89) (xy 63.5 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c543817-e6f0-44bd-9e42-bf7fbba853d7")
+	)
+	(wire
+		(pts
+			(xy 167.64 115.57) (xy 167.64 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0d73a654-8a71-43e4-aa9e-a6b2a605d934")
+	)
+	(wire
+		(pts
+			(xy 69.85 67.31) (xy 69.85 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e381ad4-1f63-4393-98a1-0ceb1c737bef")
+	)
+	(wire
+		(pts
+			(xy 45.72 135.89) (xy 53.34 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e7c8ab2-ef80-49c6-8c31-a6f9d879c36c")
+	)
+	(wire
+		(pts
+			(xy 38.1 39.37) (xy 39.37 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "12d7c574-073e-472a-b28d-224eb8253832")
+	)
+	(wire
+		(pts
+			(xy 207.01 72.39) (xy 207.01 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1427f709-843a-4c45-a4f9-6aca21836228")
+	)
+	(wire
+		(pts
+			(xy 91.44 127) (xy 91.44 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "151c653f-ed4e-41b9-a44f-7cb72a6ad834")
+	)
+	(wire
+		(pts
+			(xy 121.92 54.61) (xy 121.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "17df0268-c542-4e0d-ad65-e98fe05fdbbb")
+	)
+	(wire
+		(pts
+			(xy 163.83 57.15) (xy 163.83 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c2c6ed9-6dab-475a-898b-cdcd1dd73885")
+	)
+	(wire
+		(pts
+			(xy 39.37 53.34) (xy 39.37 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d9ddc5d-3ca3-409f-b49d-d58686844cfa")
+	)
+	(wire
+		(pts
+			(xy 45.72 109.22) (xy 53.34 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e1f134f-3408-4487-bac4-942faf4f4272")
+	)
+	(wire
+		(pts
+			(xy 266.7 55.88) (xy 266.7 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1e9892ce-a816-4da2-ac06-ebd8a32a81dc")
+	)
+	(wire
+		(pts
+			(xy 53.34 135.89) (xy 63.5 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "215ba18c-0b22-4340-876b-7879be069b39")
+	)
+	(wire
+		(pts
+			(xy 77.47 67.31) (xy 77.47 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "24739c87-52f9-4d38-8418-1a8bb900bd06")
+	)
+	(wire
+		(pts
+			(xy 132.08 129.54) (xy 130.81 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a2c8c2-8a1a-4eac-b4f6-79540f7cbc1c")
+	)
+	(wire
+		(pts
+			(xy 121.92 39.37) (xy 121.92 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "28a41589-a1c7-483b-8b2d-9bbea04943b1")
+	)
+	(wire
+		(pts
+			(xy 161.29 58.42) (xy 154.94 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2916aa15-0cb2-47aa-a489-2ef6aba55cea")
+	)
+	(wire
+		(pts
+			(xy 161.29 115.57) (xy 167.64 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29f90f48-8a4b-43cc-a6af-8f244025b79b")
+	)
+	(wire
+		(pts
+			(xy 39.37 39.37) (xy 39.37 40.64)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c2a123f-b78b-470e-9708-4727c24ecc23")
+	)
+	(wire
+		(pts
+			(xy 99.06 83.185) (xy 109.855 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd2ddfa-9890-4e61-8957-eec17c9f3be0")
+	)
+	(wire
+		(pts
+			(xy 99.06 125.73) (xy 111.76 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cd5e413-9c39-4fcf-8ade-f19ca3553a9f")
+	)
+	(wire
+		(pts
+			(xy 245.11 151.13) (xy 245.11 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2dca6259-11d7-4f54-9aaf-b9736409611f")
+	)
+	(wire
+		(pts
+			(xy 62.23 39.37) (xy 62.23 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2e89c5df-5256-4904-9421-3c9982eea181")
+	)
+	(wire
+		(pts
+			(xy 207.01 55.88) (xy 207.01 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31598eb0-9335-4a21-9bb0-332029437d38")
+	)
+	(wire
+		(pts
+			(xy 91.44 88.9) (xy 91.44 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "320ca708-e436-4fa8-a536-cff446542100")
+	)
+	(wire
+		(pts
+			(xy 82.55 109.22) (xy 82.55 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33d361fe-ba26-441d-b10d-d8615ab31175")
+	)
+	(wire
+		(pts
+			(xy 97.79 39.37) (xy 111.76 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "36b91da2-a80f-47e5-8f86-841506d68fec")
+	)
+	(wire
+		(pts
+			(xy 120.65 58.42) (xy 121.92 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "374230ac-3d11-44f7-9002-64ca27a4eac1")
+	)
+	(wire
+		(pts
+			(xy 189.23 138.43) (xy 186.69 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "37838fd9-3426-4d76-9b31-076693d756ba")
+	)
+	(wire
+		(pts
+			(xy 245.11 137.16) (xy 245.11 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3958c0a6-fda8-4f29-ad66-85ff534698a1")
+	)
+	(wire
+		(pts
+			(xy 62.23 67.31) (xy 62.23 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39a0e567-570f-4d35-a02d-f8bd89183982")
+	)
+	(wire
+		(pts
+			(xy 91.44 138.43) (xy 91.44 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3be22e84-50ef-4775-b0df-e4c0fa4cae80")
+	)
+	(wire
+		(pts
+			(xy 69.85 39.37) (xy 69.85 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3cd2fb55-fdb3-4e5f-86d0-1895aa02ed5b")
+	)
+	(wire
+		(pts
+			(xy 233.045 55.88) (xy 236.22 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "415cfeec-36fc-41ac-9901-2e26692c2195")
+	)
+	(wire
+		(pts
+			(xy 54.61 67.31) (xy 54.61 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "41a540c4-b753-405f-b20b-bd9c2197273c")
+	)
+	(wire
+		(pts
+			(xy 172.72 58.42) (xy 166.37 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "43e682cb-7113-45e7-a548-fb3b6c3ac235")
+	)
+	(wire
+		(pts
+			(xy 189.23 138.43) (xy 189.23 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "471f0477-3379-4f4b-a9b1-95900c221e42")
+	)
+	(wire
+		(pts
+			(xy 77.47 39.37) (xy 77.47 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4779b0b4-82b4-481e-b977-ed7b9b5a55a8")
+	)
+	(wire
+		(pts
+			(xy 62.23 67.31) (xy 69.85 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4a531184-87dc-419c-a5f4-b7e35d96947f")
+	)
+	(wire
+		(pts
+			(xy 207.01 58.42) (xy 202.565 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4adb6560-693d-456c-886e-3a9689dd8893")
+	)
+	(wire
+		(pts
+			(xy 121.92 58.42) (xy 128.27 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4e4598af-eaeb-4a2d-befa-141fbadd86b5")
+	)
+	(wire
+		(pts
+			(xy 53.34 128.27) (xy 53.34 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4fb17de3-f5d5-4afc-8bc6-1c9ed7eac8a6")
+	)
+	(wire
+		(pts
+			(xy 146.05 115.57) (xy 148.59 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "53031317-2900-458a-aa16-6be82d93bd85")
+	)
+	(wire
+		(pts
+			(xy 214.63 156.21) (xy 207.01 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5473f531-bdac-4c8e-95d3-c1a7b8f05634")
+	)
+	(wire
+		(pts
+			(xy 69.85 39.37) (xy 77.47 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "551a6e9b-6989-40b6-b721-911a13f7df8e")
+	)
+	(wire
+		(pts
+			(xy 99.06 138.43) (xy 99.06 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "552fedd1-d52b-4d91-acfc-eb66aa9723ad")
+	)
+	(wire
+		(pts
+			(xy 91.44 125.73) (xy 99.06 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "558be3ef-5d07-4c3a-9a1f-cd6ae6dc58db")
+	)
+	(wire
+		(pts
+			(xy 226.06 44.45) (xy 233.045 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "595d7896-75a2-4e46-82d1-5fb1f0b15b76")
+	)
+	(wire
+		(pts
+			(xy 215.9 55.88) (xy 207.01 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b6905a3-eca4-4150-9f37-d76a0c1e908b")
+	)
+	(wire
+		(pts
+			(xy 189.23 144.78) (xy 191.77 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f2e3c82-b4a0-4337-bb9d-d31483e380aa")
+	)
+	(wire
+		(pts
+			(xy 233.045 44.45) (xy 233.045 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "602b8506-ce2d-4d46-a252-0923b7bcc0db")
+	)
+	(wire
+		(pts
+			(xy 39.37 67.31) (xy 39.37 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60625618-8bc8-4886-b0da-da57c7b8d576")
+	)
+	(wire
+		(pts
+			(xy 46.99 59.69) (xy 46.99 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "619d8fb6-ecd5-4385-9e92-da2cc6106606")
+	)
+	(wire
+		(pts
+			(xy 116.84 115.57) (xy 114.3 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6679262c-0617-4534-a95b-fa075e561c22")
+	)
+	(wire
+		(pts
+			(xy 54.61 67.31) (xy 62.23 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "667eacf8-4bad-457c-8d3b-48fd05e7b8d3")
+	)
+	(wire
+		(pts
+			(xy 214.63 133.35) (xy 214.63 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d02bf5-c479-46f7-b6a2-eec6c1f16362")
+	)
+	(wire
+		(pts
+			(xy 53.34 118.11) (xy 53.34 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69223de8-dc3a-44bd-9039-10413a264e13")
+	)
+	(wire
+		(pts
+			(xy 185.42 58.42) (xy 187.325 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "69514dfa-5339-48ce-a403-de6fc140a2d7")
+	)
+	(wire
+		(pts
+			(xy 189.23 156.21) (xy 191.77 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c09cea4-55bb-4898-ad17-842faa1579da")
+	)
+	(wire
+		(pts
+			(xy 166.37 58.42) (xy 166.37 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f761208-a215-41f1-8fc5-e3a4dd5c2727")
+	)
+	(wire
+		(pts
+			(xy 111.76 149.86) (xy 111.76 147.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "719f776e-bb9b-4ca7-8408-df09e446e92e")
+	)
+	(wire
+		(pts
+			(xy 82.55 125.73) (xy 91.44 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73830702-4451-4bf9-ab20-30e7a00998be")
+	)
+	(wire
+		(pts
+			(xy 82.55 39.37) (xy 82.55 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7658b464-40a0-4197-95ff-58f40248d172")
+	)
+	(wire
+		(pts
+			(xy 266.7 55.88) (xy 274.32 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "76909d21-7af5-4f14-91f3-eeadcac78f13")
+	)
+	(wire
+		(pts
+			(xy 77.47 39.37) (xy 82.55 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "79dc9349-1271-41ae-930d-40b9d6dda516")
+	)
+	(wire
+		(pts
+			(xy 82.55 39.37) (xy 97.79 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "813e1fc7-a3eb-449d-b582-6f1730099f7c")
+	)
+	(wire
+		(pts
+			(xy 111.76 39.37) (xy 121.92 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "817fdf2b-ce9c-496e-b15b-a9787ace0085")
+	)
+	(wire
+		(pts
+			(xy 245.11 133.35) (xy 251.46 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8501ade1-1173-4d04-a71c-414117942589")
+	)
+	(wire
+		(pts
+			(xy 54.61 39.37) (xy 54.61 49.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85713692-2d66-4e9b-8242-206354b0dc0e")
+	)
+	(wire
+		(pts
+			(xy 242.57 133.35) (xy 245.11 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85b50518-b233-4399-87d9-32fc138df731")
+	)
+	(wire
+		(pts
+			(xy 62.23 39.37) (xy 69.85 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "85e32963-5832-4310-934b-dc66709c075a")
+	)
+	(wire
+		(pts
+			(xy 63.5 111.76) (xy 63.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8a2207e9-42ef-43b9-982b-2ac5897cbaca")
+	)
+	(wire
+		(pts
+			(xy 189.23 144.78) (xy 189.23 156.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9012d388-16de-4f00-9363-427d4f84e929")
+	)
+	(wire
+		(pts
+			(xy 191.77 133.35) (xy 189.23 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "926ff374-1e3d-4b81-8b7e-b82eb5ce7354")
+	)
+	(wire
+		(pts
+			(xy 148.59 129.54) (xy 146.05 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "930c28b2-58b1-4967-98e0-c7e5759f7014")
+	)
+	(wire
+		(pts
+			(xy 99.06 83.185) (xy 99.06 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94105e1c-0ad2-44b6-b6d1-207910faa4af")
+	)
+	(wire
+		(pts
+			(xy 207.01 44.45) (xy 207.01 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ea6d96-aecb-48f3-80d0-c93d4bf1cdb1")
+	)
+	(wire
+		(pts
+			(xy 248.92 55.88) (xy 251.46 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a3262b6-e20e-4a10-b6e1-866b56a2d272")
+	)
+	(wire
+		(pts
+			(xy 97.79 57.15) (xy 97.79 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9b014d78-6979-44e9-927b-e1b1260d7888")
+	)
+	(wire
+		(pts
+			(xy 161.29 59.69) (xy 161.29 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9c023fc3-2ad9-42cf-8f85-2bf54480de50")
+	)
+	(wire
+		(pts
+			(xy 161.29 129.54) (xy 162.56 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a2b6a09f-a753-406d-ba87-4aa4930cf531")
+	)
+	(wire
+		(pts
+			(xy 278.13 60.96) (xy 278.13 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a47bc09f-1247-4f55-b3b8-47078692af8f")
+	)
+	(wire
+		(pts
+			(xy 261.62 55.88) (xy 266.7 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4fe91a7-1640-4559-a474-f85d296c3914")
+	)
+	(wire
+		(pts
+			(xy 91.44 100.965) (xy 91.44 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a768612e-4ab0-46e0-bf4c-797f8e95d13c")
+	)
+	(wire
+		(pts
+			(xy 46.99 67.31) (xy 54.61 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a9b2042c-2a2a-4bb8-96d0-1815a61d57b3")
+	)
+	(wire
+		(pts
+			(xy 109.855 106.68) (xy 109.855 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac7ada61-e0d9-4e58-be6a-4330e8d3c554")
+	)
+	(wire
+		(pts
+			(xy 129.54 115.57) (xy 130.81 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ad77245f-9422-49a4-be2d-dd72b1595738")
+	)
+	(wire
+		(pts
+			(xy 53.34 109.22) (xy 63.5 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aff9cba5-d106-4900-8e48-0c90bd66dce6")
+	)
+	(wire
+		(pts
+			(xy 120.65 138.43) (xy 162.56 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b430fd05-2fc0-4816-845b-50477aa1f04c")
+	)
+	(wire
+		(pts
+			(xy 207.01 133.35) (xy 214.63 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b710fb35-4a19-4c2e-9afd-3c514c480987")
+	)
+	(wire
+		(pts
+			(xy 99.06 125.73) (xy 99.06 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b890d641-9faf-4923-8cf0-4a3bca83f70e")
+	)
+	(wire
+		(pts
+			(xy 109.855 83.185) (xy 109.855 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb4e87dc-7eab-4e91-b56e-08444b84ae86")
+	)
+	(wire
+		(pts
+			(xy 97.79 39.37) (xy 97.79 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c03bbffb-4d10-4ff1-9ac3-078c10612a0d")
+	)
+	(wire
+		(pts
+			(xy 130.81 115.57) (xy 132.08 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c907b621-fc31-4431-b4a3-740ba01c8898")
+	)
+	(wire
+		(pts
+			(xy 207.01 58.42) (xy 207.01 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cd51af2c-456c-4bfb-8e2e-6ffb3551a6a7")
+	)
+	(wire
+		(pts
+			(xy 255.27 139.065) (xy 255.27 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfa1ef0b-6969-42d2-a333-7c4c43bc3a07")
+	)
+	(wire
+		(pts
+			(xy 229.87 133.35) (xy 227.33 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cfc7bb7b-b43c-48f9-aab3-69b1bba95774")
+	)
+	(wire
+		(pts
+			(xy 39.37 39.37) (xy 46.99 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddb8a0d1-e115-4aa6-a094-2531ba5039f4")
+	)
+	(wire
+		(pts
+			(xy 214.63 133.35) (xy 217.17 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "df67b563-bc29-4834-a8ec-f8f7437ea584")
+	)
+	(wire
+		(pts
+			(xy 45.72 118.11) (xy 45.72 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dfded9d2-1c3c-49d1-a6cd-a7312d1237cf")
+	)
+	(wire
+		(pts
+			(xy 63.5 134.62) (xy 63.5 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0747d4f-a16b-4ccb-904c-f79ec70dbdf9")
+	)
+	(wire
+		(pts
+			(xy 111.76 68.58) (xy 111.76 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0b84268-5dc8-4146-af9e-e7c3c92c13d6")
+	)
+	(wire
+		(pts
+			(xy 63.5 109.22) (xy 82.55 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1455bbf-09e8-4078-9f9f-0a58ab24f801")
+	)
+	(wire
+		(pts
+			(xy 111.76 39.37) (xy 111.76 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e2ffac3d-6e71-4a3d-ba95-8efa76c994f1")
+	)
+	(wire
+		(pts
+			(xy 39.37 64.77) (xy 39.37 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e3ab402f-6565-4892-833e-0f02749a319b")
+	)
+	(wire
+		(pts
+			(xy 20.32 39.37) (xy 22.86 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6912bf4-325c-4658-973a-6bfa7acb1f4d")
+	)
+	(wire
+		(pts
+			(xy 91.44 83.185) (xy 99.06 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e78457ea-cc18-45db-88e7-006a157836f1")
+	)
+	(wire
+		(pts
+			(xy 54.61 39.37) (xy 62.23 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e7b73d64-fb17-4730-a17f-8b61d62b7163")
+	)
+	(wire
+		(pts
+			(xy 213.36 44.45) (xy 207.01 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e9129489-b00b-4c61-a067-d6a4a0b29372")
+	)
+	(wire
+		(pts
+			(xy 231.14 55.88) (xy 233.045 55.88)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eacc71da-dee3-4619-b697-b0784554e477")
+	)
+	(wire
+		(pts
+			(xy 111.76 125.73) (xy 111.76 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb57da2a-6488-4980-85e8-2dbe22205551")
+	)
+	(wire
+		(pts
+			(xy 46.99 49.53) (xy 46.99 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f0bbbdaf-0faf-41e7-8e98-04b75f000e32")
+	)
+	(wire
+		(pts
+			(xy 82.55 83.185) (xy 82.55 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f21a6d48-5312-42b7-9c43-6d20ffc49f41")
+	)
+	(wire
+		(pts
+			(xy 82.55 83.185) (xy 91.44 83.185)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f3321331-3fe0-448e-9891-c23f73464ef6")
+	)
+	(wire
+		(pts
+			(xy 162.56 129.54) (xy 162.56 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f9bfb52b-3ac8-49da-a054-14268bb31f8d")
+	)
+	(wire
+		(pts
+			(xy 130.81 129.54) (xy 130.81 115.57)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb2a9a05-4106-4227-a5d7-dadd9f954d2c")
+	)
+	(wire
+		(pts
+			(xy 20.32 35.56) (xy 20.32 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc08c3de-4da2-49a5-86f4-04ccd33b8f08")
+	)
+	(wire
+		(pts
+			(xy 69.85 67.31) (xy 77.47 67.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc2fc8db-73b7-4ddf-95fa-c90c117a1e7d")
+	)
+	(wire
+		(pts
+			(xy 167.64 138.43) (xy 171.45 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fdad1adf-6995-4916-9d64-cc6af53bd880")
+	)
+	(wire
+		(pts
+			(xy 45.72 128.27) (xy 45.72 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe1f56ab-3aad-40e6-900a-28eaa2518d7a")
+	)
+	(wire
+		(pts
+			(xy 99.06 100.965) (xy 99.06 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fef10c9d-7e7b-4e3d-978e-668b306c93a1")
+	)
+	(wire
+		(pts
+			(xy 46.99 39.37) (xy 54.61 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ff5d5308-d061-4890-9fd1-c13c1d3ee497")
+	)
+	(hierarchical_label "SPDIF_RX"
+		(shape output)
+		(at 163.83 57.15 90)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify left)
+		)
+		(uuid "274529d9-c2f5-4918-a376-b55c237f9a3f")
+	)
+	(hierarchical_label "SPDIF_TX"
+		(shape input)
+		(at 114.3 115.57 180)
+		(effects
+			(font
+				(size 1.524 1.524)
+			)
+			(justify right)
+		)
+		(uuid "b1b8859b-07f6-453f-b2a4-59b479530e6f")
+	)
+	(symbol
+		(lib_id "power1:GNDD")
+		(at 97.79 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000054e21d36")
+		(property "Reference" "#PWR?"
+			(at 97.79 63.5 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 97.79 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 97.79 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "97275064-23a0-495e-9ae8-9361163b60b1")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:GNDD")
+		(at 39.37 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000054e24752")
+		(property "Reference" "#PWR?"
+			(at 39.37 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 39.37 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 39.37 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 39.37 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b9f1f34e-c434-498f-b338-ff1e04a90700")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:IC-SPDIF-RX-OPTO")
+		(at 107.95 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000054e30c44")
+		(property "Reference" "U402"
+			(at 104.14 67.31 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+			)
+		)
+		(property "Value" "IC-SPDIF-RX-OPTO"
+			(at 106.68 57.15 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:IC_SPDIF_OPTO"
+			(at 107.95 50.8 0)
+			(effects
+				(font
+					(size 2.9972 2.9972)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 50.8 0)
+			(effects
+				(font
+					(size 2.9972 2.9972)
+				)
+			)
+		)
+		(property "Description" "TOSLINK receiver e.g. CLIFF FC684205R"
+			(at 107.95 50.8 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1baba2a8-a342-4cf0-a8a5-3796bde7b501")
+		)
+		(pin "2"
+			(uuid "85303a7c-ef54-4312-9210-2c5a44b9df63")
+		)
+		(pin "3"
+			(uuid "d585c5bd-b6a9-4d80-9595-c3d78649233c")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "U402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:IC-SPDIF-TX-OPTO")
+		(at 107.95 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000054e30c95")
+		(property "Reference" "U403"
+			(at 105.41 147.32 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+			)
+		)
+		(property "Value" "IC-SPDIF-TX-OPTO"
+			(at 107.95 138.43 90)
+			(effects
+				(font
+					(size 1.4986 1.4986)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:IC_SPDIF_OPTO"
+			(at 107.95 130.81 0)
+			(effects
+				(font
+					(size 2.9972 2.9972)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 107.95 130.81 0)
+			(effects
+				(font
+					(size 2.9972 2.9972)
+				)
+			)
+		)
+		(property "Description" "TOSLINK transmitter e.g. CLIFF FC684205T"
+			(at 107.95 130.81 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "bef848ec-6698-4c5e-a6a5-b9eb1ce1786e")
+		)
+		(pin "2"
+			(uuid "d904d478-4bb9-48b5-b559-f1761cce65c8")
+		)
+		(pin "3"
+			(uuid "96d97ee8-4c26-4f02-a74b-13145ce26035")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "U403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:GNDD")
+		(at 111.76 68.58 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000054e30f61")
+		(property "Reference" "#PWR?"
+			(at 111.76 74.93 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 111.76 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "a026dce0-5144-49fd-bd42-c5451ec7574f")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:GNDD")
+		(at 111.76 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000054e30f88")
+		(property "Reference" "#PWR?"
+			(at 111.76 156.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 111.76 153.67 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 111.76 149.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 111.76 149.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 111.76 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "523818c2-8f1e-4dff-85fa-1e07a2b00ed4")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:GNDD")
+		(at 99.06 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000054e607ca")
+		(property "Reference" "#PWR?"
+			(at 99.06 144.78 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 99.06 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "cf9f297d-7331-4740-b489-cbe3ab228a15")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:VPP")
+		(at 20.32 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000054e607d2")
+		(property "Reference" "#PWR?"
+			(at 20.32 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VPP"
+			(at 20.32 31.75 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 20.32 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 20.32 35.56 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 20.32 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "589a0e1b-30a2-440b-a483-8c7377d584b3")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:GNDD")
+		(at 91.44 138.43 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000055005796")
+		(property "Reference" "#PWR?"
+			(at 91.44 144.78 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 91.44 142.24 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c8df96ff-f0ab-48bc-9e98-c2d011b0ee8e")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:GNDD")
+		(at 266.7 72.39 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000561d3f85")
+		(property "Reference" "#PWR?"
+			(at 266.7 78.74 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 266.7 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 266.7 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e7b7c47f-62b4-4957-85c7-787866c81ec4")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:GNDD")
+		(at 207.01 76.2 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000561d43c3")
+		(property "Reference" "#PWR?"
+			(at 207.01 82.55 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 207.01 80.01 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "139b7fc3-be59-4ced-98e0-bab257b20c2c")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:GNDD")
+		(at 99.06 100.965 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000561d4708")
+		(property "Reference" "#PWR?"
+			(at 99.06 107.315 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 99.06 104.775 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 99.06 100.965 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 100.965 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 99.06 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "bf39355c-d3e4-4a63-b875-21c8900b7ff1")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:GNDD")
+		(at 91.44 100.965 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000561d4714")
+		(property "Reference" "#PWR?"
+			(at 91.44 107.315 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 91.44 104.775 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 91.44 100.965 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 100.965 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 91.44 100.965 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "9673b771-93a4-4722-aa82-c05fe7f7a0f1")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:COAX")
+		(at 274.32 55.88 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000561d4f79")
+		(property "Reference" "CN402"
+			(at 275.59 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "COAX"
+			(at 275.59 53.34 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:CONN_SIL_2_1MM"
+			(at 273.05 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 273.05 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "1x2 2.54mm pitch pin header - use with 75Ohm coax"
+			(at 274.32 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0e5e889e-3410-4018-ac3a-2597b1f2b1ac")
+		)
+		(pin "2"
+			(uuid "dcb7f985-dcd0-494e-9c2c-e63b52354f4a")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "CN402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:GNDD")
+		(at 278.13 60.96 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000561d5150")
+		(property "Reference" "#PWR?"
+			(at 278.13 67.31 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 278.13 64.77 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 278.13 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 278.13 60.96 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 278.13 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "1d118b20-8e3b-4dcb-aa21-84b8b186053d")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:IC-LOGIC-74HC04")
+		(at 231.14 55.88 0)
+		(mirror y)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000564d169c")
+		(property "Reference" "U404"
+			(at 223.52 49.53 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 223.52 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:IC_SOIC_14"
+			(at 231.14 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 231.14 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "74HC04 Hex Inverter - SOIC-14"
+			(at 231.14 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "81680a97-12a4-4400-870e-b595aed34a7e")
+		)
+		(pin "7"
+			(uuid "3984fc84-25c0-4a13-a178-eff43107685b")
+		)
+		(pin "1"
+			(uuid "acfc953b-5b21-48e9-a895-0f6f9bf5fe15")
+		)
+		(pin "2"
+			(uuid "2047c493-b8ff-4d90-abc8-f828c5dcace1")
+		)
+		(pin "3"
+			(uuid "938789d9-057a-44b8-9624-4391ce53d4cd")
+		)
+		(pin "4"
+			(uuid "6e3c9baa-93e3-4496-b9a0-17b35224da63")
+		)
+		(pin "5"
+			(uuid "f69d5afc-ad9b-4c65-8e42-ac8be386f660")
+		)
+		(pin "6"
+			(uuid "23840c26-aa46-40a4-8542-58e7340fbb78")
+		)
+		(pin "8"
+			(uuid "f103994c-9495-444e-bb1d-45488495a98b")
+		)
+		(pin "9"
+			(uuid "4a524189-6186-415f-b036-a2327fa176dc")
+		)
+		(pin "10"
+			(uuid "1159a098-07f9-447a-af31-02e665645620")
+		)
+		(pin "11"
+			(uuid "b61fc1fd-0065-41e7-b15a-ab7341f8183b")
+		)
+		(pin "12"
+			(uuid "7574f659-6420-449d-a672-f64259b23e52")
+		)
+		(pin "13"
+			(uuid "acfc403b-9bd1-4794-89ce-7889052dbfc2")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "U404")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:IC-LOGIC-74HC04")
+		(at 202.565 58.42 0)
+		(mirror y)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000564d2e66")
+		(property "Reference" "U404"
+			(at 195.58 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 195.58 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:IC_SOIC_14"
+			(at 202.565 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 202.565 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "74HC04 Hex Inverter - SOIC-14"
+			(at 202.565 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "a118d504-aa9f-4029-83d2-b594eae0cdbb")
+		)
+		(pin "7"
+			(uuid "8cdeabbb-5c94-4011-be3e-decfd9d965c2")
+		)
+		(pin "1"
+			(uuid "b49e2dfe-3ead-4249-b435-97e3a724eda4")
+		)
+		(pin "2"
+			(uuid "4d4c7cdf-e27b-4696-9d22-a06cd5f259dd")
+		)
+		(pin "3"
+			(uuid "e1d90a31-6ebc-43b1-8f6b-76bdca2438b5")
+		)
+		(pin "4"
+			(uuid "8d2148f2-400e-4ca1-858b-a5d99542d012")
+		)
+		(pin "5"
+			(uuid "a2ea7060-9d0d-4418-91e5-0fa00df56461")
+		)
+		(pin "6"
+			(uuid "506863f2-5e2a-4afe-aed8-26b169fea497")
+		)
+		(pin "8"
+			(uuid "147b907e-a3e1-4f5e-8471-7342e2b4719e")
+		)
+		(pin "9"
+			(uuid "67d9fd09-b7aa-44dd-a59f-71e06102f033")
+		)
+		(pin "10"
+			(uuid "d8fb1bc4-35d5-49f5-bcd0-6638828035dc")
+		)
+		(pin "11"
+			(uuid "c773ae24-f8a0-4676-8dde-19151e4957bc")
+		)
+		(pin "12"
+			(uuid "0743df2b-305f-4986-8f36-a21deeeafa81")
+		)
+		(pin "13"
+			(uuid "45653aa7-79eb-4e35-ad2e-7dcb68ebecaf")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "U404")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:IC-LOGIC-74HC04")
+		(at 109.855 85.09 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000564d3c27")
+		(property "Reference" "U404"
+			(at 115.57 96.52 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 118.11 95.25 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:IC_SOIC_14"
+			(at 109.855 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.855 85.09 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "74HC04 Hex Inverter - SOIC-14"
+			(at 109.855 85.09 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "18ffa487-6202-426a-958a-0fdb347a5f15")
+		)
+		(pin "7"
+			(uuid "85292893-2595-4889-b154-0dbce76fb361")
+		)
+		(pin "1"
+			(uuid "d8cc4acc-d3f6-4835-8662-597e9d3ba823")
+		)
+		(pin "2"
+			(uuid "82e14c79-10f9-487a-aebd-d0cdc4ec511a")
+		)
+		(pin "3"
+			(uuid "bb86c19d-64e2-4f3a-a0fa-7fd99d9d8c6b")
+		)
+		(pin "4"
+			(uuid "f758801e-004c-4af0-90c0-df4c865456f1")
+		)
+		(pin "5"
+			(uuid "aeccf1a2-7157-4467-999a-8b2ea87ea54d")
+		)
+		(pin "6"
+			(uuid "9181393c-efef-4f05-ab48-03e73052f768")
+		)
+		(pin "8"
+			(uuid "53567c1a-57d8-4d07-a58d-6fa8544971b3")
+		)
+		(pin "9"
+			(uuid "d51e0a9d-a88a-424e-adba-41591787dd18")
+		)
+		(pin "10"
+			(uuid "100a9b10-88e1-4186-89d2-c7ef1566dbf7")
+		)
+		(pin "11"
+			(uuid "e7355c4a-81c1-4539-a07d-93f3801eb694")
+		)
+		(pin "12"
+			(uuid "5a6d18ad-36e2-4fc1-b1f1-eeab84b7ff50")
+		)
+		(pin "13"
+			(uuid "528cb661-f7fc-4236-a78b-8b3eac381760")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "U404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:GNDD")
+		(at 109.855 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000564d40f6")
+		(property "Reference" "#PWR?"
+			(at 109.855 113.03 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 109.855 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.855 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.855 106.68 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 109.855 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b8a9c179-ea8c-4d34-af9c-42e4ea37349a")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:IC-LOGIC-74HC04")
+		(at 191.77 144.78 0)
+		(unit 6)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000564d53bf")
+		(property "Reference" "U404"
+			(at 199.39 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 199.39 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:IC_SOIC_14"
+			(at 191.77 144.78 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 144.78 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "74HC04 Hex Inverter - SOIC-14"
+			(at 191.77 144.78 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "98aeefea-12a1-4831-9ae7-01101625ad23")
+		)
+		(pin "7"
+			(uuid "3ef1faa9-8351-4981-ac96-da4153b9a95d")
+		)
+		(pin "1"
+			(uuid "46ff0045-71d5-4c42-8f6e-d9e7512dd542")
+		)
+		(pin "2"
+			(uuid "cf730e4b-8beb-451f-9c25-8f3eb9a45656")
+		)
+		(pin "3"
+			(uuid "0ce2a353-43e5-4e83-a1ae-32de0014fbd7")
+		)
+		(pin "4"
+			(uuid "b214be01-b3df-4eba-b4b1-60b6b6bd4360")
+		)
+		(pin "5"
+			(uuid "9f8b935f-f57f-47d7-b1a3-dec77ca44236")
+		)
+		(pin "6"
+			(uuid "842a7207-bfeb-46d2-8557-3379e6dca467")
+		)
+		(pin "8"
+			(uuid "696d1de4-eb8c-48e9-9007-82ad39951c88")
+		)
+		(pin "9"
+			(uuid "9f6ece1c-724c-4e9c-8cc6-6eb46ea6168a")
+		)
+		(pin "10"
+			(uuid "7ba44994-4a46-46a4-9b58-d538984a1fc6")
+		)
+		(pin "11"
+			(uuid "d61ea082-54c2-4eda-84ea-98bc05d1a04f")
+		)
+		(pin "12"
+			(uuid "5b8ccd8b-a977-44ac-a02c-230ffcfce0b5")
+		)
+		(pin "13"
+			(uuid "16cc0e9e-1cc7-4e0e-96e2-1ac97f10e2e4")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "U404")
+					(unit 6)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:IC-LOGIC-74HC04")
+		(at 191.77 156.21 0)
+		(unit 7)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000564d54b2")
+		(property "Reference" "U404"
+			(at 199.39 149.86 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 199.39 152.4 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:IC_SOIC_14"
+			(at 191.77 156.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 156.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 191.77 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Decription" "74HC04 Hex Inverter - SOIC-14"
+			(at 191.77 156.21 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "ef67fb9e-9e1e-4d8b-b019-5172f24876ff")
+		)
+		(pin "7"
+			(uuid "8d752c85-ec7b-4df7-85b3-da04b33c54ff")
+		)
+		(pin "1"
+			(uuid "2cc889a9-b23f-4dd8-a51d-1de0044316fb")
+		)
+		(pin "2"
+			(uuid "bc820915-27bd-4072-ab6e-95e8ef56c15e")
+		)
+		(pin "3"
+			(uuid "772d9e60-5d84-4adb-8146-44f54e704d58")
+		)
+		(pin "4"
+			(uuid "450b5a2e-06cb-44f0-97a4-1153e1eac924")
+		)
+		(pin "5"
+			(uuid "8dbeb704-ff5f-49e2-a652-c7c420bfb272")
+		)
+		(pin "6"
+			(uuid "d4a2f9be-6e2c-443d-8740-1056feb3a4a6")
+		)
+		(pin "8"
+			(uuid "04360726-5669-417b-960c-0ecaccb974c6")
+		)
+		(pin "9"
+			(uuid "879af3f1-cf5f-462f-9b64-dbaa0e13ceaf")
+		)
+		(pin "10"
+			(uuid "006e3a00-05f4-44eb-91e1-b0c95cd99722")
+		)
+		(pin "11"
+			(uuid "a929dae5-10fe-4cc9-8caa-e83ef36199fc")
+		)
+		(pin "12"
+			(uuid "5c806fdd-d0f4-4a81-be01-30b07d37c5ea")
+		)
+		(pin "13"
+			(uuid "21e13c86-96b7-4128-9833-fdeadd3390a6")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "U404")
+					(unit 7)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:IC-LOGIC-74HC04")
+		(at 191.77 133.35 0)
+		(unit 5)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000564d5973")
+		(property "Reference" "U404"
+			(at 199.39 127 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 199.39 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:IC_SOIC_14"
+			(at 191.77 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 191.77 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "74HC04 Hex Inverter - SOIC-14"
+			(at 191.77 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "d3d4bbe6-7af4-4507-b1fd-764ea38fb15f")
+		)
+		(pin "7"
+			(uuid "4a057e96-df4a-4f9d-85e4-a1e363640ebd")
+		)
+		(pin "1"
+			(uuid "8d586d50-4fb7-447f-ab0b-b4dbc871a4b9")
+		)
+		(pin "2"
+			(uuid "63448eaa-da92-46ce-ad34-d48d2575a96c")
+		)
+		(pin "3"
+			(uuid "e144d8c0-a930-46b3-a17b-af09ffe767e2")
+		)
+		(pin "4"
+			(uuid "917d3d20-bb49-4be8-8330-022e37d7063b")
+		)
+		(pin "5"
+			(uuid "97a677b4-f63e-4472-bae2-b496dde52798")
+		)
+		(pin "6"
+			(uuid "373aa38c-e864-4b2c-bb69-79b271004747")
+		)
+		(pin "8"
+			(uuid "55898e98-274a-4338-a7e3-bc8501a3c85c")
+		)
+		(pin "9"
+			(uuid "fe7e653d-b03b-459e-80ff-850a838168d3")
+		)
+		(pin "10"
+			(uuid "38cbb5bd-56c8-400f-91bd-1917e1b2250a")
+		)
+		(pin "11"
+			(uuid "3ea866d5-0c47-4fd3-ad3e-974b6c6c93ed")
+		)
+		(pin "12"
+			(uuid "abae203a-c4f0-4d0c-9a1e-98b7bcf75693")
+		)
+		(pin "13"
+			(uuid "88e8ce45-4fc9-4d46-a295-652d8bbac757")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "U404")
+					(unit 5)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:GNDD")
+		(at 245.11 151.13 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000564d731c")
+		(property "Reference" "#PWR?"
+			(at 245.11 157.48 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 245.11 154.94 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 245.11 151.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 245.11 151.13 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 245.11 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "172b63f9-3b99-4128-9d7e-4fc2388daf18")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:COAX")
+		(at 251.46 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000564d7ab7")
+		(property "Reference" "CN401"
+			(at 252.73 128.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "COAX"
+			(at 252.73 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:CONN_SIL_2_1MM"
+			(at 250.19 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 250.19 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "1x2 2.54mm pitch pin header - use with 75Ohm coax"
+			(at 251.46 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4f17fb2e-0612-4c3d-bffc-98cea57f7873")
+		)
+		(pin "2"
+			(uuid "d212b620-440f-43de-b8cb-23a1ca67e1ff")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "CN401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:GNDD")
+		(at 255.27 139.065 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000564d7abd")
+		(property "Reference" "#PWR?"
+			(at 255.27 145.415 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 255.27 142.875 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 255.27 139.065 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 139.065 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 255.27 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddc9576c-a777-438f-ab02-c40ef78eff65")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:IC-LOGIC-74HC04")
+		(at 171.45 138.43 0)
+		(unit 4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000564db579")
+		(property "Reference" "U404"
+			(at 179.07 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "74HC04"
+			(at 179.07 143.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:IC_SOIC_14"
+			(at 171.45 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 171.45 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "74HC04 Hex Inverter - SOIC-14"
+			(at 171.45 138.43 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "14"
+			(uuid "ce336de1-6df7-4aea-a8c8-c3b5239494c4")
+		)
+		(pin "7"
+			(uuid "7f722890-0c7e-49bf-ab30-a521b9b78a5b")
+		)
+		(pin "1"
+			(uuid "260e9801-4e91-42ac-8339-28f531d2ba08")
+		)
+		(pin "2"
+			(uuid "cc84f07f-79bb-4a35-bd0f-0e3c91100ef0")
+		)
+		(pin "3"
+			(uuid "cb94fc41-0143-46a0-abe0-8dcfe9417a7a")
+		)
+		(pin "4"
+			(uuid "0905f465-2e5a-4085-bcd7-e7a5a79ed80c")
+		)
+		(pin "5"
+			(uuid "a39af87b-5b6f-4f29-ad70-28537f81fc1c")
+		)
+		(pin "6"
+			(uuid "fbf3db45-57f0-44fd-beb6-a5efafbf1087")
+		)
+		(pin "8"
+			(uuid "23a477aa-bc97-46bf-bcd2-0cc6afbd9030")
+		)
+		(pin "9"
+			(uuid "b7044c7e-5266-4d1d-955d-c717e1be55c0")
+		)
+		(pin "10"
+			(uuid "ff32242b-be56-409e-ba46-fa47e65293cf")
+		)
+		(pin "11"
+			(uuid "1f38dd74-767c-4cf4-a166-b5e74db9820d")
+		)
+		(pin "12"
+			(uuid "60defd0a-8c68-47e8-b889-8c8fe653d92c")
+		)
+		(pin "13"
+			(uuid "0320ac92-6605-4ff3-ab5b-e31af6aa94ba")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "U404")
+					(unit 4)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:IC-LOGIC-BUF-NC7WZ16P6X")
+		(at 138.43 129.54 0)
+		(unit 2)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005652650a")
+		(property "Reference" "U401"
+			(at 138.43 121.92 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "NC7WZ16P6X"
+			(at 142.24 124.46 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:IC-SC70-6"
+			(at 140.97 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "UHS Dual Buffer"
+			(at 138.43 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9221b50a-2af2-417a-8345-06096ab6f23c")
+		)
+		(pin "5"
+			(uuid "80d880dc-346b-4f16-b9f6-bd3d0031eecd")
+		)
+		(pin "1"
+			(uuid "9dd3c5a4-b0b8-4ba7-b3d1-60348b64e510")
+		)
+		(pin "6"
+			(uuid "a0958b6f-5cb3-49c1-9efe-adc893dd1f44")
+		)
+		(pin "3"
+			(uuid "8169da58-9f76-4b4a-bd4b-1dd8cf65b2cb")
+		)
+		(pin "4"
+			(uuid "a9dc0cbd-b1c4-4df7-b004-a6dc855ea981")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "U401")
+					(unit 2)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:IC-LOGIC-BUF-NC7WZ16P6X")
+		(at 138.43 115.57 0)
+		(unit 3)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000565267f5")
+		(property "Reference" "U401"
+			(at 138.43 107.95 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "NC7WZ16P6X"
+			(at 138.43 110.49 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:IC-SC70-6"
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "UHS Dual Buffer"
+			(at 138.43 115.57 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "208a7e6f-70b1-44b2-8966-611f3d6b0870")
+		)
+		(pin "5"
+			(uuid "7db37d14-02ea-40c4-bad8-9457eb7c2de9")
+		)
+		(pin "1"
+			(uuid "63f55be2-4325-4a83-8e35-e02fa1d5c0ce")
+		)
+		(pin "6"
+			(uuid "0048aae7-3cab-4c06-a94c-6769c36cb678")
+		)
+		(pin "3"
+			(uuid "51612b7a-adad-41be-bdd1-beb9990cb733")
+		)
+		(pin "4"
+			(uuid "7a575ee9-0bb6-4c26-8735-bb9f2a513680")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "U401")
+					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:IC-LOGIC-BUF-NC7WZ16P6X")
+		(at 63.5 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000565269ca")
+		(property "Reference" "U401"
+			(at 69.85 125.73 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "NC7WZ16P6X"
+			(at 72.39 123.19 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:IC-SC70-6"
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 66.04 123.19 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "UHS Dual Buffer"
+			(at 63.5 123.19 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "dcd0ef3d-60be-437b-b740-9a4e4c5bdfb7")
+		)
+		(pin "5"
+			(uuid "64d3ce20-d365-47d8-99b0-90482d9febf3")
+		)
+		(pin "1"
+			(uuid "e780213d-5aa0-4a73-8915-f77f21a12f4e")
+		)
+		(pin "6"
+			(uuid "3a1a188e-bc0e-4200-8631-462419806739")
+		)
+		(pin "3"
+			(uuid "a386a5df-93af-4182-9d87-04f3a9a9e5bd")
+		)
+		(pin "4"
+			(uuid "3b0dc714-69a2-4143-ba5c-941776086925")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "U401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power1:GNDD")
+		(at 63.5 137.16 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000056526f97")
+		(property "Reference" "#PWR?"
+			(at 63.5 143.51 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDD"
+			(at 63.5 140.97 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 63.5 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 63.5 137.16 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 63.5 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "c88acf81-bcd4-41bb-b1a9-9a1b7d45d8eb")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "#PWR?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:R")
+		(at 148.59 58.42 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000570e3925")
+		(property "Reference" "R404"
+			(at 148.59 60.96 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "75"
+			(at 148.6154 58.2422 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 148.59 60.198 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 60.452 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" "Thick or thin film resistor"
+			(at 148.59 52.197 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 148.59 55.88 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 148.59 53.975 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 148.59 50.165 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ff37e61-3503-49b1-93cd-ed13e1677209")
+		)
+		(pin "2"
+			(uuid "2c72141e-2238-484b-bc5e-abea6d0ef8fb")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "R404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:R")
+		(at 179.07 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000570e418c")
+		(property "Reference" "R407"
+			(at 179.07 55.88 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "75"
+			(at 179.0954 58.5978 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 179.07 56.642 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 179.07 56.388 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" "Thick or thin film resistor"
+			(at 179.07 64.643 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 179.07 60.96 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 179.07 62.865 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 179.07 66.675 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4033c79e-8538-4c41-93be-04e3badde8a9")
+		)
+		(pin "2"
+			(uuid "0bdbc1c4-0251-47e0-9869-db42b2e14bf9")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "R407")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:R")
+		(at 219.71 44.45 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000570e6369")
+		(property "Reference" "R409"
+			(at 219.71 41.91 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 219.6846 44.6278 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 219.71 42.672 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 219.71 42.418 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" "Thick or thin film resistor"
+			(at 219.71 50.673 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 219.71 46.99 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 219.71 48.895 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 219.71 52.705 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5511f83c-608b-47dd-ae04-6a8eda654a1b")
+		)
+		(pin "2"
+			(uuid "b395eed9-f93c-4369-b9bc-a6ee6c6afd3e")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "R409")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:R")
+		(at 242.57 55.88 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000570e67fa")
+		(property "Reference" "R411"
+			(at 242.57 53.34 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "100"
+			(at 242.5446 56.0578 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 242.57 54.102 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 242.57 53.848 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" "Thick or thin film resistor"
+			(at 242.57 62.103 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 242.57 58.42 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 242.57 60.325 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 242.57 64.135 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a544844b-f681-4f2a-bc6f-41acde87231f")
+		)
+		(pin "2"
+			(uuid "e5db8eab-a466-4356-aa2b-0cf066a8da6a")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "R411")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:R")
+		(at 266.7 64.77 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000570e6ac1")
+		(property "Reference" "R413"
+			(at 269.24 64.77 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "75"
+			(at 266.5222 64.7954 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 268.478 64.77 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 268.732 64.77 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" "Thick or thin film resistor"
+			(at 260.477 64.77 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 264.16 64.77 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 262.255 64.77 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 258.445 64.77 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ca0c1af5-6e48-48da-98c3-9dd18d3d5a81")
+		)
+		(pin "2"
+			(uuid "7f72cbe6-c064-47c8-bfd7-3c5a837b7b0e")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "R413")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:R")
+		(at 207.01 66.04 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000570e74a4")
+		(property "Reference" "R408"
+			(at 209.55 66.04 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 206.8322 66.0654 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 208.788 66.04 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 209.042 66.04 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" "Thick or thin film resistor"
+			(at 200.787 66.04 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 204.47 66.04 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 202.565 66.04 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 198.755 66.04 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cf9acd14-2d66-4141-bcf2-a1683a06de10")
+		)
+		(pin "2"
+			(uuid "808de35d-c44d-4c95-be9c-4d7f7f0c63da")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "R408")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:R")
+		(at 121.92 48.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000570e8dce")
+		(property "Reference" "R402"
+			(at 124.46 48.26 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "10k"
+			(at 121.7422 48.2346 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 123.698 48.26 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.952 48.26 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" "Thick or thin film resistor"
+			(at 115.697 48.26 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 119.38 48.26 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 117.475 48.26 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 113.665 48.26 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "214ea1ca-b901-4175-b084-cf1300062df4")
+		)
+		(pin "2"
+			(uuid "2a5c206f-4e52-4088-b041-cf4eec18988a")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "R402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:R")
+		(at 123.19 115.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000570ea415")
+		(property "Reference" "R403"
+			(at 123.19 118.11 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "75"
+			(at 123.2154 115.3922 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 123.19 117.348 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 123.19 117.602 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" "Thick or thin film resistor"
+			(at 123.19 109.347 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 123.19 113.03 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 123.19 111.125 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 123.19 107.315 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "386e9159-696a-4358-8b76-2c47273b4fc9")
+		)
+		(pin "2"
+			(uuid "e48a9e23-e70a-4562-ba7d-2a01a6974d7c")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "R403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:R")
+		(at 154.94 115.57 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000570eaf90")
+		(property "Reference" "R405"
+			(at 154.94 118.11 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "75"
+			(at 154.9654 115.3922 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 154.94 117.348 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 117.602 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" "Thick or thin film resistor"
+			(at 154.94 109.347 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 154.94 113.03 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 154.94 111.125 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 154.94 107.315 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a753048a-bdd9-47d3-b2a4-81e43d451d20")
+		)
+		(pin "2"
+			(uuid "9bdf8d6d-7efd-4897-9125-a5a5811cb197")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "R405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:R")
+		(at 154.94 129.54 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000570eb0ef")
+		(property "Reference" "R406"
+			(at 154.94 132.08 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "75"
+			(at 154.9146 129.3622 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 154.94 131.318 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 131.572 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" "Thick or thin film resistor"
+			(at 154.94 123.317 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 154.94 127 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 154.94 125.095 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 154.94 121.285 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "803d292e-cf7d-4ac4-9abc-525eae1d1ecd")
+		)
+		(pin "2"
+			(uuid "4b03211c-9841-4347-b8fd-09efada32e4f")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "R406")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:R")
+		(at 245.11 143.51 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000570ec454")
+		(property "Reference" "R412"
+			(at 247.65 143.51 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "91"
+			(at 244.9322 143.5354 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 246.888 143.51 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 247.142 143.51 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" "Thick or thin film resistor"
+			(at 238.887 143.51 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 242.57 143.51 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 240.665 143.51 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 236.855 143.51 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "17cbfdf0-507f-4645-8c9f-38f740e6f13c")
+		)
+		(pin "2"
+			(uuid "6f7fd505-0c92-4fd2-a55c-d2048f2856d3")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "R412")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:R")
+		(at 236.22 133.35 270)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000570ec532")
+		(property "Reference" "R410"
+			(at 236.22 135.89 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "360"
+			(at 236.2454 133.1722 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 236.22 135.128 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 236.22 135.382 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" "Thick or thin film resistor"
+			(at 236.22 127.127 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 236.22 130.81 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 236.22 128.905 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 236.22 125.095 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "88058de9-90f9-463f-b0bd-cd823d43d9b4")
+		)
+		(pin "2"
+			(uuid "87665188-e803-4e26-a6b1-b13b5dccf3f5")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "R410")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:C")
+		(at 39.37 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005713e68a")
+		(property "Reference" "C401"
+			(at 39.37 57.15 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100p"
+			(at 39.624 61.849 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 40.3352 63.5 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 39.37 57.15 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Ceramic capacitor"
+			(at 39.37 52.07 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 41.021 63.5 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Type" "C0G"
+			(at 41.148 65.405 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Tolerance" "5%"
+			(at 49.53 46.99 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 39.37 59.69 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "957b3c8f-56c7-4126-ab96-77197a76deac")
+		)
+		(pin "2"
+			(uuid "d7f87838-e5c2-41dc-9233-a18358ba3c84")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "C401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:CP1")
+		(at 46.99 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005713e8f4")
+		(property "Reference" "C403"
+			(at 48.26 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "220u"
+			(at 48.26 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:CAP-TH-D6.3mmP2.5mm"
+			(at 46.99 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 46.99 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Low impedance aluminium electrolytic capacitor - Panasonic FC, FR or similar"
+			(at 46.99 44.45 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 48.387 59.309 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Type" "2.5mm pitch, 6.3mm diameter"
+			(at 46.99 46.99 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fe8e75d3-6a30-46b8-bb0a-953654882ad8")
+		)
+		(pin "2"
+			(uuid "670b2c57-40f7-4b03-b60c-680bc2105e98")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "C403")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:C")
+		(at 54.61 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005713ef72")
+		(property "Reference" "C405"
+			(at 54.61 52.07 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22u"
+			(at 54.864 56.769 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 55.5752 58.42 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 54.61 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Ceramic capacitor"
+			(at 54.61 46.99 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 56.261 58.42 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Type" "X5R"
+			(at 56.388 60.325 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 64.77 41.91 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 54.61 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "52c1ac73-f324-4fe6-a793-cd9edf5aa099")
+		)
+		(pin "2"
+			(uuid "a9252306-c305-4cb4-a26e-def7e9c33fd8")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "C405")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:C")
+		(at 62.23 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005713f074")
+		(property "Reference" "C406"
+			(at 62.23 52.07 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 62.484 56.769 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 63.1952 58.42 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Ceramic capacitor"
+			(at 62.23 46.99 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 63.881 58.42 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Type" "X7R"
+			(at 64.008 60.325 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 72.39 41.91 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 62.23 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "02dcd43e-68ac-4381-8dc4-abfc853ecfd0")
+		)
+		(pin "2"
+			(uuid "7c674acb-a980-4468-ab83-ead326225453")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "C406")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:C")
+		(at 77.47 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005713f330")
+		(property "Reference" "C408"
+			(at 77.47 52.07 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N/F"
+			(at 77.724 56.769 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 78.4352 58.42 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 77.47 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Ceramic capacitor"
+			(at 77.47 46.99 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 79.121 58.42 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "X7R"
+			(at 79.248 60.325 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 87.63 41.91 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 77.47 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06d733b0-a5ad-4bf8-ad45-025093eba55a")
+		)
+		(pin "2"
+			(uuid "3731f3c0-cf84-48f2-aff9-79f05eebc811")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "C408")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:C")
+		(at 97.79 50.8 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005713fe7a")
+		(property "Reference" "C412"
+			(at 97.79 48.26 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 98.044 52.959 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 98.7552 54.61 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 97.79 48.26 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Ceramic capacitor"
+			(at 97.79 43.18 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 99.441 54.61 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Type" "X7R"
+			(at 99.568 56.515 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 107.95 38.1 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 97.79 50.8 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8b840c70-a6cd-45d9-8419-42265d55b5b4")
+		)
+		(pin "2"
+			(uuid "38803193-eda4-4727-9e1f-b59684b205ae")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "C412")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:C")
+		(at 91.44 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000571405cb")
+		(property "Reference" "C410"
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 91.694 96.139 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 92.4052 97.79 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Ceramic capacitor"
+			(at 91.44 86.36 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 93.091 97.79 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Type" "X5R"
+			(at 93.218 99.695 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 101.6 81.28 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 91.44 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76c97b94-ff9d-4d63-8061-e7b95f04b989")
+		)
+		(pin "2"
+			(uuid "40f1bb53-2922-46f6-9dab-8441d6526532")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "C410")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:C")
+		(at 99.06 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000571406b1")
+		(property "Reference" "C413"
+			(at 99.06 91.44 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 99.314 96.139 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 100.0252 97.79 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 91.44 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Ceramic capacitor"
+			(at 99.06 86.36 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 100.711 97.79 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Type" "X7R"
+			(at 100.838 99.695 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 109.22 81.28 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 99.06 93.98 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a00f90b9-4cf6-423f-8fcf-9f9d32fe5299")
+		)
+		(pin "2"
+			(uuid "d84151d7-e62f-4b8c-87f7-7133ed9583b7")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "C413")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:C")
+		(at 69.85 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000057140a1e")
+		(property "Reference" "C407"
+			(at 69.85 52.07 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "N/F"
+			(at 70.104 56.769 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 70.8152 58.42 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 69.85 52.07 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Ceramic capacitor"
+			(at 69.85 46.99 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 71.501 58.42 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Type" "X7R"
+			(at 71.628 60.325 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 80.01 41.91 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 69.85 54.61 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06689430-07e9-424d-b1f9-cae1b16f23c8")
+		)
+		(pin "2"
+			(uuid "be81a3cc-70c4-473f-b325-62198776980c")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "C407")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:C")
+		(at 45.72 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000571411a7")
+		(property "Reference" "C404"
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 45.974 125.349 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 46.6852 127 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 45.72 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Ceramic capacitor"
+			(at 45.72 115.57 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 47.371 127 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Type" "X5R"
+			(at 47.498 128.905 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 55.88 110.49 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 45.72 123.19 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "13f2daa8-55aa-48a4-bea2-711ea33f78a8")
+		)
+		(pin "2"
+			(uuid "102b2aa9-7550-468d-8fdb-088352541bb6")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "C404")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:C")
+		(at 53.34 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000571411b2")
+		(property "Reference" "C402"
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 53.594 125.349 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 54.3052 127 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 53.34 120.65 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Ceramic capacitor"
+			(at 53.34 115.57 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 54.991 127 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Type" "X7R"
+			(at 55.118 128.905 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 63.5 110.49 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 53.34 123.19 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "03bbc25b-0b6a-4e5f-9ccd-236dd8112b8c")
+		)
+		(pin "2"
+			(uuid "6f2a309a-9848-4ea4-a606-89f468cb1516")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "C402")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:C")
+		(at 91.44 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000571417b5")
+		(property "Reference" "C411"
+			(at 91.44 129.54 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 91.694 134.239 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 92.4052 135.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 91.44 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Ceramic capacitor"
+			(at 91.44 124.46 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "10V"
+			(at 93.091 135.89 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Type" "X5R"
+			(at 93.218 137.795 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Tolerance" "20%"
+			(at 101.6 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 91.44 132.08 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "86534afd-3529-4ff3-be0b-7ba9d8a1a350")
+		)
+		(pin "2"
+			(uuid "7d2fe6b2-90af-456d-80a4-78390c15bdb3")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "C411")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:C")
+		(at 99.06 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-0000571417c0")
+		(property "Reference" "C414"
+			(at 99.06 129.54 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 99.314 134.239 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 100.0252 135.89 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 99.06 129.54 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Ceramic capacitor"
+			(at 99.06 124.46 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 100.711 135.89 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Type" "X7R"
+			(at 100.838 137.795 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 109.22 119.38 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 99.06 132.08 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "15d2eb12-64ff-4eec-8bff-be24763503eb")
+		)
+		(pin "2"
+			(uuid "67599410-5239-4f25-b814-daf9ec94ec1b")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "C414")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:C")
+		(at 222.25 133.35 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000057142344")
+		(property "Reference" "C416"
+			(at 224.79 133.35 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 220.091 133.604 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 218.44 134.3152 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 224.79 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Ceramic capacitor"
+			(at 229.87 133.35 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 218.44 135.001 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Type" "X7R"
+			(at 216.535 135.128 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 234.95 143.51 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 222.25 133.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5dc8f2a4-0efa-4ebc-8c8d-41201a6623f4")
+		)
+		(pin "2"
+			(uuid "0914f663-f6ac-41b8-8332-93b37b758723")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "C416")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:C")
+		(at 256.54 55.88 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000057142fc9")
+		(property "Reference" "C417"
+			(at 254 55.88 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 258.699 56.134 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 260.35 56.8452 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 254 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Ceramic capacitor"
+			(at 248.92 55.88 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 260.35 57.531 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Type" "X7R"
+			(at 262.255 57.658 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 243.84 66.04 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 256.54 55.88 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c09d09bb-fd67-4e60-86cf-860b26aca1ed")
+		)
+		(pin "2"
+			(uuid "14fbf748-27de-4246-a558-76ad9dfd330d")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "C417")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:C")
+		(at 133.35 58.42 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000057143541")
+		(property "Reference" "C415"
+			(at 135.89 58.42 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10n"
+			(at 131.191 58.674 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 129.54 59.3852 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 135.89 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Ceramic capacitor"
+			(at 140.97 58.42 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 129.54 60.071 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Type" "X7R"
+			(at 127.635 60.198 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Tolerance" "10%"
+			(at 146.05 68.58 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 133.35 58.42 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1eae65b0-aef2-45a0-94a4-a7bede4fb2ea")
+		)
+		(pin "2"
+			(uuid "21ca7db3-8531-4704-ae68-5d798e1538ac")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "C415")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:INDUCTOR")
+		(at 30.48 39.37 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-00005717054f")
+		(property "Reference" "L401"
+			(at 30.48 40.64 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "600R@100MHz"
+			(at 30.48 36.83 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 30.48 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 30.48 39.37 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "Ferrite bead, current rating 1A or higher, 600R@100MHz"
+			(at 29.21 34.29 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Current" "=>1A"
+			(at 30.48 35.56 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Size" "0805"
+			(at 30.48 39.37 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0ea7bfcc-f36a-4bad-bae5-9541a6041883")
+		)
+		(pin "2"
+			(uuid "58efc851-4b41-4b25-b3ac-b93d2ed38e3e")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "L401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:CONN_3x1")
+		(at 161.29 59.69 90)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000057185414")
+		(property "Reference" "JP401"
+			(at 166.497 72.009 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "CONN_3x1"
+			(at 163.576 70.612 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:CONN_SIL_3_1MM"
+			(at 164.084 68.326 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 164.084 68.326 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Description" "1x3 2.54mm pitch pin header"
+			(at 168.91 66.04 0)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4ae4d5bf-56ca-43e0-a67c-4a46d31cfcdc")
+		)
+		(pin "2"
+			(uuid "80931b4e-f390-4ef2-9d2b-f3a6250a61ec")
+		)
+		(pin "3"
+			(uuid "5280d55c-3dcb-4744-bcd8-48e4398318b7")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "JP401")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "MyKiCadLibs-Lib:R")
+		(at 39.37 46.99 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "00000000-0000-0000-0000-000057445657")
+		(property "Reference" "R401"
+			(at 37.338 46.99 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Value" "47"
+			(at 39.5478 46.9646 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+			)
+		)
+		(property "Footprint" "MyKiCadLibs-Footprints:SMD-0805"
+			(at 37.592 46.99 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 37.338 46.99 90)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+			)
+		)
+		(property "Description" "Thick or thin film resistor"
+			(at 45.593 46.99 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Power" "100mW"
+			(at 41.91 46.99 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Size" "0805"
+			(at 43.815 46.99 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(property "Tolerance" "1%"
+			(at 47.625 46.99 90)
+			(effects
+				(font
+					(size 1.016 1.016)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "40aae5eb-c7d1-4f2b-964c-eb79e4c5ca1d")
+		)
+		(pin "2"
+			(uuid "f2885bf7-54cb-4265-8384-5cd74ebac603")
+		)
+		(instances
+			(project "DSP-ADAU1452"
+				(path "/86091d05-ebf6-419b-8e47-56a033939694/00000000-0000-0000-0000-000054e30917"
+					(reference "R401")
+					(unit 1)
+				)
+			)
+		)
+	)
+)

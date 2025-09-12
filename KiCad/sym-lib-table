@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "power1")(type "Legacy")(uri "D:/Electronics/KiCad-Libs/power.lib")(options "")(descr ""))
+  (lib (name "MyKiCadLibs-Lib")(type "Legacy")(uri "D:/Electronics/KiCad-Libs/MyKiCadLibs-Lib.lib")(options "")(descr ""))
+)
