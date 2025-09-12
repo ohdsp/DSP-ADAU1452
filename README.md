@@ -5,7 +5,7 @@
 ---
 # README
 ### Disclaimer
-Copyright Paul Janicki 2015
+Copyright Paul Janicki 2025
 
 Licensed under the TAPR Open Hardware License (www.tapr.org/OHL)
 
@@ -42,7 +42,7 @@ Most folder names are self explanatory. Starting from the top level: \
 3. Create a OHDSP subdirectory in C:\Electronics (so C:\Electronics\OHDSP)
 3. Download this project to C:\Electronics\OHDSP\DSP-ADAU1452
 4. Fire up Kicad
-5. Open the main project file C:\Electronics\OHDSP\DSP-ADAU1452\Schematics\DSP-ADAU1452.pro
+5. Open the main project file C:\Electronics\OHDSP\DSP-ADAU1452\KiCad\DSP-ADAU1452.pro
 6. (Optional) Setup Pcbnew component library as below.
 7. Do as you wish with the project, just keep it under the TAPR Open Hardware License.
 
